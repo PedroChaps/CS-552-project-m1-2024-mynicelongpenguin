@@ -31,7 +31,7 @@ if json_cnt < 3:
     print(f"ERROR: Too few files. You should have 1 data file per team member. (You only have {json_cnt} in total.)")
     has_errors = True
 
-if json_cnt > 3:
+if json_cnt > 4:
     print("#" * 50)
     print(f"ERROR: Too many files. You should have 1 data file per team member. (You have {json_cnt} in total.)")
     has_errors = True
